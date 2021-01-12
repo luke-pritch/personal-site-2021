@@ -74,11 +74,11 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          <li>
+          {/* <li>
             <a>
               <ToggleSwitch />
             </a>
-          </li>
+          </li> */}
         </ul>
       </header>
     </Headroom>
