@@ -15,7 +15,7 @@ const greeting = {
     'A passionate Software Developer 🚀 with experience in building Web applications with JavaScript, TypeScript, React.js, Firebase, and several other innovative libraries and frameworks.',
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1C2xFT94CfcH0yoDOt0NdfvzeFEDXKsQt/view?usp=sharing',
+    'https://drive.google.com/file/d/1hdXWs-ZYdXlKD6TIs8fUI4sLJyTw55g2/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -44,7 +44,7 @@ const skillsSection = {
       '⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks',
     ),
     emoji(
-      '⚡ Integrating third party services such as Firebase, Netlify and AWS',
+      '⚡ Integrating third party services such as Firebase, and Netlify',
     ),
   ],
 
@@ -93,16 +93,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fas fa-database',
     },
     {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
-    },
-    {
       skillName: 'Firebase',
       fontAwesomeClassname: 'fas fa-fire',
     },
     {
       skillName: 'Netlify',
       fontAwesomeClassname: 'fas fa-server',
+    },
+    {
+      skillName: 'Linux',
+      fontAwesomeClassname: 'fab fa-linux',
     },
 
     // {
