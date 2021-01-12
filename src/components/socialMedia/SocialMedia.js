@@ -81,6 +81,14 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.email ?
+      <a href={`mailto:${socialMediaLinks.email}`} className="icon-button email" target="_blank" rel="noopener noreferrer">
+        <i className="fas fa-envelope"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
     </div>
   );
 }

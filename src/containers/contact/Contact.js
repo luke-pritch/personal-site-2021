@@ -36,9 +36,9 @@ export default function Contact() {
               <br />
               <a
                 className="contact-detail-email"
-                href={'mailto:' + contactInfo.email_address}
+                href={'mailto:' + contactInfo.email}
               >
-                {contactInfo.email_address}
+                {contactInfo.email}
               </a>
               <br />
               <br />
@@ -47,7 +47,7 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={email} />
+              <DisplayLottie animationData={email} loop={false} />
             ) : (
               <img
                 alt="Man working"

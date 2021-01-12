@@ -6,7 +6,7 @@ export default class DisplayLottie extends Component {
   render() {
     const animationData = this.props.animationData
     const defaultOptions = {
-        loop: true,
+        loop: this.props.loop,
         autoplay: true,
         animationData: animationData,
       };
