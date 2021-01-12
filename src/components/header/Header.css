@@ -10,7 +10,7 @@
 }
 
 .dark-menu li a:hover {
-  background-color: #0e76a8 !important;
+  background-color: #3873ce !important;
 }
 
 .header {
@@ -53,7 +53,7 @@
 }
 .header .logo-name {
   font-family: 'Agustina Regular';
-  color: #0e76a8;
+  color: #3873ce;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
