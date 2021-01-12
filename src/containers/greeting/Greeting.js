@@ -22,7 +22,9 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1
-                className={isDark ? 'dark-mode greeting-text' : 'greeting-text'}
+                className={
+                  isDark ? 'dark-mode greeting-text' : 'greeting-text'
+                }
               >
                 {' '}
                 {greeting.title}{' '}
@@ -37,7 +39,6 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 <Button
@@ -50,7 +51,10 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={laptopPerson} loop={true} />
+              <DisplayLottie
+                animationData={laptopPerson}
+                loop={true}
+              />
             ) : (
               <img
                 alt="man sitting on table"

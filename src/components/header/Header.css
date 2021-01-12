@@ -52,7 +52,7 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: 'Agustina Regular';
   color: #0e76a8;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
@@ -91,7 +91,7 @@
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
-  content: "";
+  content: '';
   display: block;
   height: 100%;
   position: absolute;
@@ -102,7 +102,7 @@
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
   background: white !important;
-  content: "";
+  content: '';
   display: block;
   height: 100%;
   position: absolute;

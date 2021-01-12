@@ -12,7 +12,7 @@ const greeting = {
   username: 'Luke Pritchard',
   title: "Hey there, I'm Luke",
   subTitle: emoji(
-    'A passionate Software Developer 🚀 with experience in building Web  applications with JavaScript, TypeScript, React.js, Firebase and a several other innovative libraries and frameworks.'
+    'A passionate Software Developer 🚀 with experience in building Web applications with JavaScript, TypeScript, React.js, Firebase, and several other innovative libraries and frameworks.',
   ),
   resumeLink:
     'https://drive.google.com/file/d/1C2xFT94CfcH0yoDOt0NdfvzeFEDXKsQt/view?usp=sharing',
@@ -34,14 +34,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'Software Developer who wants to grow and expand his knowledge',
+  subTitle:
+    'Software Developer that is rapidly growing and expanding his knowledge',
   skills: [
     emoji(
-      '⚡ Developing highly interactive Front End / User Interfaces for web and mobile applications'
+      '⚡ Developing highly interactive Front End / User Interfaces for web and mobile applications',
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
     emoji(
-      '⚡ Integrating third party services such as Firebase, Digital Ocean'
+      '⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks',
+    ),
+    emoji(
+      '⚡ Integrating third party services such as Firebase, Netlify and AWS',
     ),
   ],
 
@@ -74,6 +77,10 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: 'fab fa-node',
     // },
     {
+      skillName: 'Python',
+      fontAwesomeClassname: 'fab fa-python',
+    },
+    {
       skillName: 'Kotlin',
       fontAwesomeClassname: 'fab fa-android',
     },
@@ -85,18 +92,19 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'mySQL',
       fontAwesomeClassname: 'fas fa-database',
     },
-    // {
-    //   skillName: 'aws',
-    //   fontAwesomeClassname: 'fab fa-aws',
-    // },
+    {
+      skillName: 'aws',
+      fontAwesomeClassname: 'fab fa-aws',
+    },
     {
       skillName: 'Firebase',
       fontAwesomeClassname: 'fas fa-fire',
     },
     {
-      skillName: 'Python',
-      fontAwesomeClassname: 'fab fa-python',
+      skillName: 'Netlify',
+      fontAwesomeClassname: 'fas fa-server',
     },
+
     // {
     //   skillName: 'docker',
     //   fontAwesomeClassname: 'fab fa-docker',
@@ -113,9 +121,11 @@ const educationInfo = {
     {
       schoolName: 'McMaster University',
       logo: require('./assets/images/mcmasterLogo2.png'),
-      subHeader: 'Bachelor of Engineering & Society in Computer Engineering',
+      subHeader:
+        'Bachelor of Engineering & Society in Computer Engineering',
       duration: 'September 2013 - April 2019',
-      desc: 'A holistic education extending beyond the technical and into the broader impacts of engineering design',
+      desc:
+        'A holistic education extending beyond the technical and into the broader impacts of engineering design',
       descBullets: [
         'Final year Inquiry explored the societal implications of newly adopted Computer Vision systems, advised by Vector Institute affiliate Dr. Reza Samavi',
         'Took Courses on Software Engineering, Operating Systems, Computer Architecture',
@@ -175,7 +185,8 @@ const openSource = {
 
 const bigProjects = {
   title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  subtitle:
+    'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
   projects: [
     {
       image: require('./assets/images/saayaHealthLogo.webp'),
@@ -237,7 +248,8 @@ const achievementSection = {
 
     {
       title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
+      subtitle:
+        'Completed Certifcation from SMIT for PWA Web App Development',
       image: require('./assets/images/pwaLogo.webp'),
       footerLink: [
         { name: 'Certification', url: '' },
@@ -262,12 +274,14 @@ const blogSection = {
     {
       url:
         'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
-      title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+      title:
+        'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
       description:
         'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
     },
     {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
+      url:
+        'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
       title: 'Why REACT is The Best?',
       description:
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
@@ -281,7 +295,7 @@ const blogSection = {
 const talkSection = {
   title: 'TALKS',
   subtitle: emoji(
-    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅'
+    'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅',
   ),
 
   talks: [

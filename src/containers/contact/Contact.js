@@ -14,7 +14,9 @@ export default function Contact() {
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">
+              {contactInfo.title}
+            </h1>
             <p
               className={
                 isDark
@@ -26,10 +28,15 @@ export default function Contact() {
             </p>
             <div
               className={
-                isDark ? 'dark-mode contact-text-div' : 'contact-text-div'
+                isDark
+                  ? 'dark-mode contact-text-div'
+                  : 'contact-text-div'
               }
             >
-              <a className="contact-detail" href={'tel:' + contactInfo.number}>
+              <a
+                className="contact-detail"
+                href={'tel:' + contactInfo.number}
+              >
                 {contactInfo.number}
               </a>
               <br />

@@ -6,7 +6,7 @@
 }
 
 /* Fix visible slider checkbox */
-input{
+input {
   transform: scale(0.5);
 }
 
@@ -24,7 +24,7 @@ input{
 
 .slider::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 28px;
   left: 0;
@@ -93,4 +93,3 @@ input:checked + .slider::after {
     bottom: 7.5% !important;
   }
 }
-

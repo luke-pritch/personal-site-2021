@@ -18,7 +18,10 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={groupCoding} loop={true} />
+              <DisplayLottie
+                animationData={groupCoding}
+                loop={false}
+              />
             ) : (
               <img
                 alt="Man Working"
@@ -30,7 +33,9 @@ export default function Skills() {
         <Fade right duration={1000}>
           <div className="skills-text-div">
             <h1
-              className={isDark ? 'dark-mode skills-heading' : 'skills-heading'}
+              className={
+                isDark ? 'dark-mode skills-heading' : 'skills-heading'
+              }
             >
               {skillsSection.title}{' '}
             </h1>

@@ -36,7 +36,9 @@ function Header() {
           htmlFor="menu-btn"
           style={{ color: 'white' }}
         >
-          <span className={isDark ? 'navicon navicon-dark' : 'navicon'}></span>
+          <span
+            className={isDark ? 'navicon navicon-dark' : 'navicon'}
+          ></span>
         </label>
         <ul className={isDark ? 'dark-menu menu' : 'menu'}>
           {viewSkills && (
@@ -46,7 +48,7 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Work Experience</a>
             </li>
           )}
           {viewOpenSource && (

@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
-import "./StartupProjects.css";
-import { bigProjects } from "../../portfolio";
-import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+import React, { useContext } from 'react';
+import './StartupProjects.css';
+import { bigProjects } from '../../portfolio';
+import { Fade } from 'react-reveal';
+import StyleContext from '../../contexts/StyleContext';
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
-    var win = window.open(url, "_blank");
+    var win = window.open(url, '_blank');
     win.focus();
   }
   const { isDark } = useContext(StyleContext);
@@ -21,20 +21,22 @@ export default function StartupProject() {
           <p
             className={
               isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
+                ? 'dark-mode project-subtitle'
+                : 'subTitle project-subtitle'
             }
           >
             {bigProjects.subtitle}
           </p>
           <div className="startup-projects-main">
             <div className="startup-project-text">
-              {bigProjects.projects.map((project,i) => {
+              {bigProjects.projects.map((project, i) => {
                 return (
                   <div
                     key={i}
                     className="saaya-health-div"
-                    onClick={() => openProjectInNewWindow(project.link)}
+                    onClick={() =>
+                      openProjectInNewWindow(project.link)
+                    }
                   >
                     <img alt="Saad Working" src={project.image}></img>
                   </div>
