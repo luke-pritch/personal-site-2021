@@ -12,7 +12,7 @@ const greeting = {
   username: 'Luke Pritchard',
   title: "Hey there, I'm Luke",
   subTitle: emoji(
-    'A passionate Software Developer 🚀 with experience in building Web  applications with JavaScript / TypeScript / React.js / Firebase and a few other interesting libraries and frameworks.'
+    'A passionate Software Developer 🚀 with experience in building Web  applications with JavaScript, TypeScript, React.js, Firebase and a several other innovative libraries and frameworks.'
   ),
   resumeLink:
     'https://drive.google.com/file/d/1C2xFT94CfcH0yoDOt0NdfvzeFEDXKsQt/view?usp=sharing',
@@ -34,14 +34,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Software Developer who wants to grow and expand his knowledge',
   skills: [
     emoji(
       '⚡ Developing highly interactive Front End / User Interfaces for web and mobile applications'
     ),
     emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
     emoji(
-      '⚡ Integration of third party services such as Firebase / Digital Ocean'
+      '⚡ Integrating third party services such as Firebase, Digital Ocean'
     ),
   ],
 
@@ -117,7 +117,7 @@ const educationInfo = {
       duration: 'September 2013 - April 2019',
       desc: 'A holistic education extending beyond the technical and into the broader impacts of engineering design',
       descBullets: [
-        'My final year Inquiry explored the societal implications of newly adopted Computer Vision systems, advised by Vector Institute affiliate Dr. Reza Samavi',
+        'Final year Inquiry explored the societal implications of newly adopted Computer Vision systems, advised by Vector Institute affiliate Dr. Reza Samavi',
         'Took Courses on Software Engineering, Operating Systems, Computer Architecture',
       ],
     },
