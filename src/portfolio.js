@@ -123,7 +123,7 @@ const educationInfo = {
       logo: require('./assets/images/mcmasterLogo2.png'),
       subHeader:
         'Bachelor of Engineering & Society in Computer Engineering',
-      duration: 'September 2013 - April 2019',
+      duration: 'Graduated April 2019',
       desc:
         'A holistic education extending beyond the technical and into the broader impacts of engineering design',
       descBullets: [
