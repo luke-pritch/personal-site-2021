@@ -72,10 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'React.JS',
       fontAwesomeClassname: 'fab fa-react',
     },
-    // {
-    //   skillName: 'nodejs',
-    //   fontAwesomeClassname: 'fab fa-node',
-    // },
+    {
+      skillName: 'nodejs',
+      fontAwesomeClassname: 'fab fa-node',
+    },
     {
       skillName: 'Python',
       fontAwesomeClassname: 'fab fa-python',
@@ -99,6 +99,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'Netlify',
       fontAwesomeClassname: 'fas fa-server',
+    },
+    {
+      skillName: 'AWS',
+      fontAwesomeClassname: 'fab fa-aws',
     },
     {
       skillName: 'Linux',
