@@ -6,4 +6,4 @@ This is my personal site to display my portfolio and some info about me!
 
 ## How It's Made
 
-I am using React, JavaScript and Netlify for the creation and deployment of my site.
+I am using React, JavaScript and Netlify for the creation and deployment of my site. Built on top [developerFolio](https://github.com/saadpasta/developerFolio).

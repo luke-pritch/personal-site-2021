@@ -165,7 +165,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'IT Technician',
+      role: 'Dev & IT Tech',
       company: 'Synergenics',
       companylogo: require('./assets/images/synergenicsLogo.png'),
       date: 'April 2019 – Sept 2020',
