@@ -165,6 +165,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: 'Front End Developer',
+      company: 'MobiStream',
+      companylogo: require('./assets/images/mobistreamLogo.png'),
+      date: 'Feb 2021 – Present',
+      desc:
+        'Using React.js to enable organizations to have modern front ends for existing HR management systems.',
+    },
+    {
       role: 'Dev & IT Tech',
       company: 'Synergenics',
       companylogo: require('./assets/images/synergenicsLogo.png'),
