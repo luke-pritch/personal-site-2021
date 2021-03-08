@@ -14,8 +14,7 @@ const greeting = {
   subTitle: emoji(
     'A passionate Software Developer 🚀 with experience in building Web applications with JavaScript, TypeScript, React.js, Firebase, and several other innovative libraries and frameworks.',
   ),
-  resumeLink:
-    'https://drive.google.com/file/d/1hdXWs-ZYdXlKD6TIs8fUI4sLJyTw55g2/view?usp=sharing',
+  resumeLink: '',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
