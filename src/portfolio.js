@@ -337,7 +337,7 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Feel free to reach out to discuss a project or job opportunity',
-  number: '+1 519 760 3279',
+  number: '',
   email: 'lp@lukepritchard.ca',
 };
 
