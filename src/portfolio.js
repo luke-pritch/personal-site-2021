@@ -14,7 +14,8 @@ const greeting = {
   subTitle: emoji(
     'A passionate Software Developer 🚀 with experience in building Web applications with JavaScript, TypeScript, React.js, Firebase, and several other innovative libraries and frameworks.',
   ),
-  resumeLink: '',
+  resumeLink:
+    'https://drive.google.com/file/d/14CpEViezZk7R85HAY-Z25i5Ai-BQv9V-/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -43,7 +44,7 @@ const skillsSection = {
       '⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks',
     ),
     emoji(
-      '⚡ Integrating third party services such as Firebase, and Netlify',
+      '⚡ Integrating third party services such as AWS, Azure, and Netlify',
     ),
   ],
 
@@ -80,10 +81,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'Kotlin',
-      fontAwesomeClassname: 'fab fa-android',
-    },
-    {
       skillName: 'npm',
       fontAwesomeClassname: 'fab fa-npm',
     },
@@ -108,10 +105,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-linux',
     },
 
-    // {
-    //   skillName: 'docker',
-    //   fontAwesomeClassname: 'fab fa-docker',
-    // },
+    {
+      skillName: 'docker',
+      fontAwesomeClassname: 'fab fa-docker',
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -126,7 +123,7 @@ const educationInfo = {
       logo: require('./assets/images/mcmasterLogo2.png'),
       subHeader:
         'Bachelor of Engineering & Society in Computer Engineering',
-      duration: 'Graduated April 2019',
+      duration: 'Graduated 2019',
       desc:
         'A holistic education extending beyond the technical and into the broader impacts of engineering design',
       descBullets: [
