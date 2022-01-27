@@ -12,7 +12,7 @@ const greeting = {
   username: 'Luke Pritchard',
   title: "Hey there, I'm Luke",
   subTitle: emoji(
-    'A passionate Software Developer 🚀 with experience in building Web applications with JavaScript, TypeScript, React.js, Firebase, and several other innovative libraries and frameworks.',
+    'A passionate Software Developer 🚀 with experience in building full stack web applications with TypeScript/JavaScript, React.js, Redux, GraphQL, and deploying to the cloud using Docker and AWS.',
   ),
   resumeLink:
     'https://drive.google.com/file/d/14CpEViezZk7R85HAY-Z25i5Ai-BQv9V-/view?usp=sharing',
@@ -164,17 +164,40 @@ const workExperiences = {
       role: 'Front End Developer',
       company: 'MobiStream',
       companylogo: require('./assets/images/mobistreamLogo.png'),
+      companyurl: 'https://mobistreamsolutions.com/',
       date: 'Feb 2021 – Present',
       desc:
-        'Using React.js to enable organizations to have modern front ends for existing HR management systems.',
+        'Built enterprise web portals, ownership over authentication flow, supporting multiple methods and dashboard customization. Owned the desktop incident flow for ShadowHQ, a cross-platform incident/ransomware response system. Using: Electron, JavaScript, React and Redux ',
+      descBullets: [
+        'Electron for ShadowHQ desktop application',
+        'React, Redux, Docker and AWS for web portal',
+      ],
     },
     {
-      role: 'Dev & IT Tech',
+      role: 'Software Engineer - Part-time Contract',
+      company: 'Fig',
+      companylogo: require('./assets/images/figLogo.jpeg'),
+      companyurl: 'https://getwithfig.com/',
+      date: 'Sept 2021 – Jan 2022',
+      desc:
+        'Helped build Fig’s MVP a buy now pay later platform for providing lease payment options to small buisnesses. Owned the in-store lease confirmation flow for the company’s first users. ',
+      descBullets: [
+        'TypeScript, React and Apollo for the frontend',
+        'TypeScript, Node, GraphQL, Apollo, Prisma and Postgres for the backend',
+      ],
+    },
+    {
+      role: 'Web Developer',
       company: 'Synergenics',
       companylogo: require('./assets/images/synergenicsLogo.png'),
+      companyurl: 'https://www.synergenics.ca/',
       date: 'April 2019 – Sept 2020',
       desc:
         'Split between Developer and Technician Work, Working in a front end role to develop in-house React based applications. Created donateABLE to mine cryptocurrency in the browser for local charities. Maintained and managed existing WordPress CMS sites for dozens of clients.',
+      descBullets: [
+        'TypeScript and React for the frontend',
+        'Firebase and Firestore for the backend',
+      ],
     },
   ],
 };

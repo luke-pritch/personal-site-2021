@@ -12,6 +12,11 @@ import {
   talkSection,
   achievementSection,
 } from '../../portfolio';
+import styled from 'styled-components';
+
+const StyledLink = styled.a`
+  border-radius: 6px;
+`;
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -43,36 +48,36 @@ function Header() {
         <ul className={isDark ? 'dark-menu menu' : 'menu'}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <StyledLink href="#skills">Skills</StyledLink>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experience</a>
+              <StyledLink href="#experience">Work Experience</StyledLink>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <StyledLink href="#opensource">Open Source</StyledLink>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <StyledLink href="#achievements">Achievements</StyledLink>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <StyledLink href="#blogs">Blogs</StyledLink>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Talks</a>
+              <StyledLink href="#talks">Talks</StyledLink>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <StyledLink href="#contact">Contact Me</StyledLink>
           </li>
           {/* <li>
             <a>

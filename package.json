@@ -1,10 +1,12 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "homepage": "https://lukepritchard.ca",
+  "name": "lukepritchard.ca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
     "apollo-boost": "^0.4.4",
     "colorthief": "^2.3.0",
     "gh-pages": "^2.1.1",
@@ -16,7 +18,8 @@
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "^3.4.3",
-    "react-twitter-embed": "3.0.3"
+    "react-twitter-embed": "3.0.3",
+    "styled-components": "^5.3.3"
   },
   "scripts": {
     "predeploy": "npm run build",

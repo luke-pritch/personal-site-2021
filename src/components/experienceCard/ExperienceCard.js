@@ -1,10 +1,24 @@
 import React, { useState, useEffect, createRef } from 'react';
 import './ExperienceCard.css';
 import ColorThief from 'colorthief';
+import styled from 'styled-components';
+
+const StyledBanner = styled.div`
+  background: ${props => props.color};
+  &:hover {
+    box-shadow: inset 0em 0em 0em 10em rgba(0, 0, 0, 0.3);
+  }
+`;
 
 export default function ExperienceCard({ cardInfo, isDark }) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
+
+  // useeffect log props
+  useEffect(() => {
+    console.log('card info', cardInfo);
+  }, [cardInfo]);
+
 
   function getColorArrays() {
     const colorThief = new ColorThief();
@@ -36,8 +50,9 @@ export default function ExperienceCard({ cardInfo, isDark }) {
     <div
       className={isDark ? 'experience-card-dark' : 'experience-card'}
     >
-      <div
-        style={{ background: rgb(colorArrays) }}
+      <a href={cardInfo.companyurl} target="_blank" rel="noopener noreferrer" style={{cursor: 'pointer'}}>
+      <StyledBanner
+        color={rgb(colorArrays)}
         className="experience-banner"
       >
         <div className="experience-blurred_div"></div>
@@ -55,7 +70,8 @@ export default function ExperienceCard({ cardInfo, isDark }) {
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
         />
-      </div>
+      </StyledBanner>
+      </a>
       <div className="experience-text-details">
         <h5
           className={
