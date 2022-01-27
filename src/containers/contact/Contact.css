@@ -13,6 +13,7 @@
 .contact-title {
   font-size: 65px;
   font-weight: 400;
+  text-align: center;
 }
 
 .contact-detail,
@@ -22,6 +23,7 @@
   font-weight: 400;
   color: #868e96;
   text-decoration: none;
+  text-align: center;
 }
 
 .contact-detail:hover,
@@ -33,10 +35,12 @@
 
 .contact-subtitle {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .contact-text-div {
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 .contact-margin-top {

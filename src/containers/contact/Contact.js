@@ -1,17 +1,25 @@
 import React, { useContext } from 'react';
 import './Contact.css';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
-import { illustration, contactInfo } from '../../portfolio';
+import { contactInfo } from '../../portfolio';
 import { Fade } from 'react-reveal';
-import email from '../../assets/lottie/email';
-import DisplayLottie from '../../components/displayLottie/DisplayLottie';
 import StyleContext from '../../contexts/StyleContext';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+`;
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
+      <Wrapper className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">
@@ -52,18 +60,8 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} loop={false} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require('../../assets/images/contactMailDark.svg')}
-              ></img>
-            )}
-          </div>
         </div>
-      </div>
+      </Wrapper>
     </Fade>
   );
 }
