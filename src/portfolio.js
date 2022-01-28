@@ -167,7 +167,7 @@ const workExperiences = {
       companyurl: 'https://mobistreamsolutions.com/',
       date: 'Feb 2021 – Present',
       desc:
-        'Built enterprise web portals, ownership over authentication flow, supporting multiple methods and dashboard customization. Owned the desktop incident flow for ShadowHQ, a cross-platform incident/ransomware response system. Using: Electron, JavaScript, React and Redux ',
+        'Built enterprise web portals, ownership over authentication flow, supporting multiple methods and dashboard customization. Owned the desktop incident flow for ShadowHQ, a cross-platform incident/ransomware response system.',
       descBullets: [
         'Electron for ShadowHQ desktop application',
         'React, Redux, Docker and AWS for web portal',
