@@ -164,7 +164,7 @@ const workExperiences = {
       role: 'Front End Developer',
       company: 'MobiStream',
       companylogo: require('./assets/images/mobistreamLogo.png'),
-      companyurl: 'https://mobistreamsolutions.com/',
+      companyurl: 'https://shadowhq.io/',
       date: 'Feb 2021 – Present',
       desc:
         'Built enterprise web portals, ownership over authentication flow, supporting multiple methods and dashboard customization. Owned the desktop incident flow for ShadowHQ, a cross-platform incident/ransomware response system.',
