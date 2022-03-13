@@ -175,12 +175,12 @@ const workExperiences = {
     },
     {
       role: 'Software Engineer - Part-time Contract',
-      company: 'Fig',
-      companylogo: require('./assets/images/figLogo.jpeg'),
-      companyurl: 'https://getwithfig.com/',
+      company: 'nyble',
+      companylogo: require('./assets/images/nyble.png'),
+      companyurl: 'https://nyble.ca/',
       date: 'Sept 2021 – Jan 2022',
       desc:
-        'Helped build Fig’s MVP a buy now pay later platform for providing lease payment options to small buisnesses. Owned the in-store lease confirmation flow for the company’s first users. ',
+        'Helped build nyble’s MVP a buy now pay later platform for providing lease payment options to small buisnesses. Owned the in-store lease confirmation flow for the company’s first users. ',
       descBullets: [
         'TypeScript, React and Apollo for the frontend',
         'TypeScript, Node, GraphQL, Apollo, Prisma and Postgres for the backend',
