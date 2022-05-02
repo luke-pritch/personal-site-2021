@@ -161,11 +161,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: 'Software Engineer',
+      company: 'Ada Health',
+      companylogo: require('./assets/images/Ada_logo_new.jpg'),
+      companyurl: 'https://ada.com',
+      date: 'April 2022 – Present',
+      desc:
+        'Part of the Service Delivery Team for Canada to provide patients with access to immediate care with our symptom assessment.',
+      descBullets: [
+        'Full stack engineering',
+        'Kotlin, Go, Bash, TypeScript, Google Cloud Platform',
+      ],
+    },
+    {
       role: 'Front End Developer',
       company: 'MobiStream',
       companylogo: require('./assets/images/mobistreamLogo.png'),
       companyurl: 'https://shadowhq.io/',
-      date: 'Feb 2021 – Present',
+      date: 'Feb 2021 – March 2022',
       desc:
         'Built enterprise web portals, ownership over authentication flow, supporting multiple methods and dashboard customization. Owned the desktop incident flow for ShadowHQ, a cross-platform incident/ransomware response system.',
       descBullets: [
@@ -175,9 +188,9 @@ const workExperiences = {
     },
     {
       role: 'Software Engineer - Part-time Contract',
-      company: 'nyble',
+      company: 'nyble - defunct',
       companylogo: require('./assets/images/nyble.png'),
-      companyurl: 'https://nyble.ca/',
+      companyurl: '',
       date: 'Sept 2021 – Jan 2022',
       desc:
         'Helped build nyble’s MVP a buy now pay later platform for providing lease payment options to small buisnesses. Owned the in-store lease confirmation flow for the company’s first users. ',

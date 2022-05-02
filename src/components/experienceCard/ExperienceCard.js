@@ -50,7 +50,7 @@ export default function ExperienceCard({ cardInfo, isDark }) {
     <div
       className={isDark ? 'experience-card-dark' : 'experience-card'}
     >
-      <a href={cardInfo.companyurl} target="_blank" rel="noopener noreferrer" style={{cursor: 'pointer'}}>
+      <a href={cardInfo.companyurl} target={cardInfo.companyurl ? '_blank' : ''} rel="noopener noreferrer" style={{cursor: 'pointer'}}>
       <StyledBanner
         color={rgb(colorArrays)}
         className="experience-banner"
