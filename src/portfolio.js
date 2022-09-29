@@ -15,7 +15,7 @@ const greeting = {
     'A passionate Software Developer 🚀 with experience in building full stack web applications with TypeScript/JavaScript, React.js, Redux, GraphQL, and deploying to the cloud using Docker and AWS.',
   ),
   resumeLink:
-    'https://drive.google.com/file/d/14CpEViezZk7R85HAY-Z25i5Ai-BQv9V-/view?usp=sharing',
+    'https://drive.google.com/file/d/1ppIoC2x03iSgwerDuNkPKlmhyao7TMge/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -167,10 +167,10 @@ const workExperiences = {
       companyurl: 'https://ada.com',
       date: 'April 2022 – Present',
       desc:
-        'Part of the Service Delivery Team for Canada to provide patients with access to immediate care with our symptom assessment.',
+        'Part of the Enterprise Delivery Team for Canada, delivering a assessment platform for Ontario Health.',
       descBullets: [
-        'Full stack engineering',
-        'Kotlin, Go, Bash, TypeScript, Google Cloud Platform',
+        'Automating our onboarding process with Terraform, NodeJS, and Google Cloud Platform',
+        'Taking ownership of our internal tooling, including our internal APIs and an internal dashboard',
       ],
     },
     {
