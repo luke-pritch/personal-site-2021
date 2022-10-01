@@ -12,7 +12,7 @@ const greeting = {
   username: 'Luke Pritchard',
   title: "Hey there, I'm Luke",
   subTitle: emoji(
-    'A passionate Software Developer 🚀 with experience in building full stack web applications with TypeScript/JavaScript, React.js, Redux, GraphQL, and deploying to the cloud using Docker and AWS.',
+    'A passionate Software Engineer 🚀 with experience in building full stack web apps with TypeScript and React. Skilled in deploying microservices and automating infrastructure using GCP, k8s, and Terraform.',
   ),
   resumeLink:
     'https://drive.google.com/file/d/1ppIoC2x03iSgwerDuNkPKlmhyao7TMge/view?usp=sharing',
@@ -35,16 +35,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: 'What I do',
   subTitle:
-    'Software Developer that is rapidly growing and expanding his knowledge',
+    'Software Engineer that is rapidly growing and learning his skillset',
   skills: [
     emoji(
-      '⚡ Developing highly interactive Front End / User Interfaces for web and mobile applications',
+      '⚡ Developing full stack enterprise web applications and microservices',
     ),
     emoji(
-      '⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks',
+      '⚡ Building scalable cloud infrastructure for client needs',
     ),
     emoji(
-      '⚡ Integrating third party services such as AWS, Azure, and Netlify',
+      '⚡ Integrating third party services such as AWS, GCP, and Docker',
     ),
   ],
 
@@ -61,11 +61,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-css3-alt',
     },
     {
-      skillName: 'SASS',
-      fontAwesomeClassname: 'fab fa-sass',
-    },
-    {
-      skillName: 'JavaScript',
+      skillName: 'TS/JS',
       fontAwesomeClassname: 'fab fa-js',
     },
     {
@@ -81,32 +77,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
+      skillName: 'Rust',
+      fontAwesomeClassname: 'fab fa-rust',
     },
     {
-      skillName: 'mySQL',
-      fontAwesomeClassname: 'fas fa-database',
+      skillName: 'Go',
+      fontAwesomeClassname: 'fab fa-golang',
     },
     {
-      skillName: 'Firebase',
-      fontAwesomeClassname: 'fas fa-fire',
-    },
-    {
-      skillName: 'Netlify',
-      fontAwesomeClassname: 'fas fa-server',
-    },
-    {
-      skillName: 'AWS',
-      fontAwesomeClassname: 'fab fa-aws',
+      skillName: 'GCP',
+      fontAwesomeClassname: 'fab fa-google',
     },
     {
       skillName: 'Linux',
       fontAwesomeClassname: 'fab fa-linux',
     },
-
     {
-      skillName: 'docker',
+      skillName: 'Docker',
       fontAwesomeClassname: 'fab fa-docker',
     },
   ],
