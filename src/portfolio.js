@@ -174,10 +174,10 @@ const workExperiences = {
       ],
     },
     {
-      role: 'Software Engineer - Part-time Contract',
-      company: 'nyble - defunct',
+      role: 'Software Engineer - Contractor',
+      company: 'nyble',
       companylogo: require('./assets/images/nyble.png'),
-      companyurl: '',
+      companyurl: 'https://nyble.com/',
       date: 'Sept 2021 – Jan 2022',
       desc:
         'Helped build nyble’s MVP a buy now pay later platform for providing lease payment options to small buisnesses. Owned the in-store lease confirmation flow for the company’s first users. ',
