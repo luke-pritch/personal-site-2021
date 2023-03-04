@@ -76,14 +76,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'Python',
       fontAwesomeClassname: 'fab fa-python',
     },
-    {
-      skillName: 'Rust',
-      fontAwesomeClassname: 'fab fa-rust',
-    },
-    {
-      skillName: 'Go',
-      fontAwesomeClassname: 'fab fa-golang',
-    },
+    // {
+    //   skillName: 'Rust',
+    //   fontAwesomeClassname: 'fab fa-rust',
+    // },
+    // {
+    //   skillName: 'Go',
+    //   fontAwesomeClassname: 'fab fa-golang',
+    // },
     {
       skillName: 'GCP',
       fontAwesomeClassname: 'fab fa-google',
